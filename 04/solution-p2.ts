@@ -1,4 +1,4 @@
-async function main() {
+export async function main() {
   const lines = (await Deno.readTextFile('input.txt')).split('\n')
 
   const numbers = lines[0]
