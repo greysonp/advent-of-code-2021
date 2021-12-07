@@ -6,9 +6,6 @@ export async function main() {
     .map(v => parseInt(v))
     .sort((lhs, rhs) => lhs - rhs)
 
-  let sum = 0
-  positions.forEach(v => sum += v)
-
   let minCost = 1000000000000
 
   for (let i = positions[0]; i < positions[positions.length - 1]; i++) {
